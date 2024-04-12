@@ -1,5 +1,6 @@
 from cesar import Cesar
 from monoalpha import Monoalpha
+from playfair import PlayFair
 
 plain = 'napadamo u podne ako ne bude vetra'
 
@@ -13,3 +14,7 @@ m = Monoalpha(key = 'qwertzuiopasdfghjklyxcvbnm')
 m.encrypt(plain)
 m.decrypt()
 print(m)
+
+p = PlayFair(key=  'vetrobran')
+p.crypt(plain)
+print(p)
