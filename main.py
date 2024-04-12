@@ -16,5 +16,5 @@ m.decrypt()
 print(m)
 
 p = PlayFair(key=  'vetrobran')
-p.crypt(plain)
+p.encrypt(plain)
 print(p)

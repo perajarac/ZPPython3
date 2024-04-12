@@ -60,7 +60,7 @@ class PlayFair:
                     return (i,j)
         return None
                 
-    def crypt(self, plain):
+    def encrypt(self, plain):
         self.plain = self.modify_plain(plain)
         for el in self.plain:
             fi_fj = self.find_el(el[0])
